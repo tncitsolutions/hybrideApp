@@ -17,13 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 })->name('accueil');
 
-Route::get('/admin', function () {
+/* Route::get('/admin', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__ . '/auth.php';
 
-
+ */
 
 Route::get('etat-civil', function () {
     return view('pages/etat-civil');

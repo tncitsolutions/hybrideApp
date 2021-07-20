@@ -50,11 +50,11 @@ git add .
 
 // Next Commit the changes by suitable commit message.
 
-git commit -m 'Added REST Api'
+git commit -m 'hybrideApp'
 
 // Next add the remote origin where the project is to be pushed.
 
-git remote add origin https://github.com:larahelp/RestApi.git
+git remote add origin https://github.com/tncitsolutions/hybrideApp.git
 
 // Last but not the least, push it to github.
 
